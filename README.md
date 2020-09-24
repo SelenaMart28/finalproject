@@ -26,7 +26,7 @@ OK, here we go.
 
 The goal of my project is to answer the following question: are procolophonids that have similar tooth sizes more closely related to one another than procolophonids with differing tooth sizes? 
 
-The methods I will use to do this include phylogenetic signal analysis 
+The methods I will use to do this include phylogenetic signal analysis, specifically by employing the method outlined by Blomberg et al, 2003. 
 Using the concept of phylogenetic covariance, I will determine if similarities between species of procolophonids can be attributed to their shared history or if another factor is responsible for these similarities. 
 
 The data I will use are (my own data/ data publicly available at YYY/ simulations)

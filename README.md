@@ -24,11 +24,15 @@ OK, here we go.
 
 ## Introduction and Goals
 
-The goal of my project is to answer the question, What is...?
+The goal of my project is to answer the following question: are procolophonids that have similar tooth sizes more closely related to one another than procolophonids with differing tooth sizes? 
 
-The methods I will use to do this are...
+The methods I will use to do this include phylogenetic signal analysis 
+Using the concept of phylogenetic covariance, I will determine if similarities between species of procolophonids can be attributed to their shared history or if another factor is responsible for these similarities. 
 
 The data I will use are (my own data/ data publicly available at YYY/ simulations)
+The data I will use is my own, collected as part of a survey of published research with occlusal views of procolophonid dentition. 
+
+Because I suspect that there was a Triassic radiation of procolophonids, I would expect there to be lower covariance values between procolophonids that exhibit vastly different tooth sizes and greater covariance values between procolophonids that have similar tooth sizes (and therefore likely had similar diets and occupied similar niches)
 
 ## Methods
 

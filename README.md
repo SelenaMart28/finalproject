@@ -31,7 +31,6 @@ For this project, I will compare the various dentitions of procolophonids, an ex
 The methods I will use to do this include phylogenetic signal analysis, specifically by employing the method outlined by Blomberg et al, 2003. 
 Using the concept of phylogenetic covariance, I will determine if similarities in dentition between species of procolophonids can be attributed to their shared history or if another factor is responsible for these similarities. 
 
-The data I will use are (my own data/ data publicly available at YYY/ simulations)
 The data I will use is my own, collected as part of a survey of published research with occlusal views of procolophonid dentition. 
 
 Because I suspect that there was a Triassic radiation of procolophonids, I would expect there to be lower covariance values between procolophonids that exhibit vastly different tooth sizes and greater covariance values between procolophonids that have similar tooth sizes (and therefore likely had similar diets and occupied similar niches). 

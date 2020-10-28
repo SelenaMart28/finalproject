@@ -41,7 +41,8 @@ Because I suspect that there was a Triassic radiation of procolophonids, I would
 The tools I used were... 
 
 DATA MATRIX from Cisneros 2008. 
-![Cisneros_2008_Data_Matrix](/images/logo.png)
+
+![Cisneros_2008_Data_Matrix](https://github.com/SelenaMart28/finalproject/blob/master/Cisneros2008DataMatrix.JPG?raw=true)
 
 
 ## Results

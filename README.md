@@ -65,8 +65,9 @@ If I did these analyses again, I would...
 (https://www.tandfonline.com/doi/abs/10.1017/S1477201907002350).
 - Cisneros, Juan C.; Ruta, Marcello (2010). “Morphological diversity and biogeography of procolophonids (Amniota: Parareptilia)”. Journal of Systematic Palaeontology (8). 		607-625. (https://www.researchgate.net/publication/233302378_Morphological_diversity_and_biogeography_of_procolophonids_Amniota_Parareptilia). 
 - Dias-de-Silva, Sergio; Modesto, Sean P.; Schultz, Cesar L. (2006). “New material of Procolophon (Parareptilia: Procolophonoidea) from the Lower Triassic of Brazil, with remarks on the ages of the Sanga do Cabral and Buena Vista formations of South America”. Canadian Journal of Earth Sciences (43). 1685-1693.(https://www.nrcresearchpress.com/doi/abs/10.1139/e06-043#.X21CFj-Sk2w).
+- Maddison DR, Swofford DL, Maddison WP. NEXUS: an extensible file format for systematic information. Syst Biol. 1997 Dec;46(4):590-621. (https://pubmed.ncbi.nlm.nih.gov/11975335/).
 - Marshak, Stephen. (2019). Essentials of Geology. W W Norton. 
 - Molina-Venegas, R., Rodríguez, M.Á. Revisiting phylogenetic signal; strong or negligible impacts of polytomies and branch length information?. BMC Evol Biol 17, 53 (2017). (https://bmcevolbiol.biomedcentral.com/articles/10.1186/s12862-017-0898-y#citeas).
-- Münkemüller, T., Lavergne, S., Bzeznik, B., Dray, S., Jombart, T., Schiffers, K. and Thuiller, W. (2012), How to measure and test phylogenetic signal. Methods in Ecology and Evolution, 3: 743-756. (
+- Münkemüller, T., Lavergne, S., Bzeznik, B., Dray, S., Jombart, T., Schiffers, K. and Thuiller, W. (2012), How to measure and test phylogenetic signal. Methods in Ecology and Evolution, 3: 743-756. (https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.2041-210X.2012.00196.x).
 - Revell, L. J., Harmon, L. J., & Collar, D. C. (2008). Phylogenetic signal, evolutionary process, and rate. Systematic biology, 57(4), 591-601. (https://academic.oup.com/sysbio/article/57/4/591/1631730).
 

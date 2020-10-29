@@ -44,6 +44,7 @@ DATA MATRIX from Cisneros 2008.
 
 ![Cisneros_2008_Data_Matrix](https://github.com/SelenaMart28/finalproject/blob/master/Cisneros2008DataMatrix.JPG?raw=true)
 
+This data matrix was converted into a text file using an OCR, and then this character information was put into Nexus format. This data (in Nexus format) is included in the files of this repository. 
 
 ## Results
 

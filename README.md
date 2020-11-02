@@ -97,7 +97,7 @@ Europe: 5
 
 Oceania: 6
 
-Using the areas_list_to_states_list_new command in R/BioGeoBears, we can convert a list of areas to a list of geographic regions (states). Because I am not planning to use a larger number of states (7 at most), I expect this analysis to run relatively fast. The list of areas that will be used in this analysis is shown above. The maximum number of areas in the analysis is 7 (1 per state). Because each of the taxa *has* to exist on a continent, the null range will not be included in possible states. 
+Using the areas_list_to_states_list_new command in R/BioGeoBears, we can convert a list of areas to a list of geographic regions (states). Because I am not planning to use a larger number of states (7 at most), I expect this analysis to run relatively fast. The list of areas that will be used in this analysis is shown above. The maximum number of areas in the analysis is 7 (1 per state). Because each of the taxa *has* to exist on a continent, the null range will not be included in possible states. I will use the define_tipranges_object to input my geographic data for my taxa of interest. 
 ## Results
 
 The tree in Figure 1...

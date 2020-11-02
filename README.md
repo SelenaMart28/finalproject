@@ -59,7 +59,8 @@ Owenettidae
 *Kapes spp.*                    
 *Thelephon contritus*          
 *Eumetabolodon bathycephalus* 
-*Procolophon trigoniceps*      
+*Procolophon trigoniceps* 
+
 *Thelerpeton oppressus*         
 *Teratophon spinigenis*        
 *Pentaedrusaurus ordocianus*   

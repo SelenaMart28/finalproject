@@ -56,12 +56,19 @@ Following this, I then began to use the BioGeoBears package on the Grace cluster
 For use of the BioGeoBears package in R, I first had to compile a list of my geographic regions of interest and their relevance to my taxa of interest. Instead of using political boundaries, I instead use modern continents for this geographic list. Because procolophonids are of Permian and Triassic age, the geographic regions are (quite) different from how they are in the modern day. I am using modern continents for my analysis with BioGeoBears and will then discuss how this geographic distribution would have looked during the Permian and Triassic in the discussion. 
 
 Regions and the number they will be encoded as in BioGeoBears:
+
 Africa: 0 
+
 South America: 1
+
 North America: 2
+
 Asia: 3
+
 Antarctica: 4
+
 Europe: 5
+
 Oceania: 6
 
 # Taxa 

@@ -51,7 +51,8 @@ Owenettidae
 *Coletta seca*                
 *Pintosaurus magnidentis*     
 *Sauropareion anoplus*         
-*Phaanthosaurus spp.*          
+*Phaanthosaurus spp.* 
+
 *Eumetabolodon dongshengensis* 
 *Theledectes perforatus*       
 *Tichvinskia vjatkensis*       
@@ -59,8 +60,8 @@ Owenettidae
 *Kapes spp.*                    
 *Thelephon contritus*          
 *Eumetabolodon bathycephalus* 
-*Procolophon trigoniceps* 
 
+*Procolophon trigoniceps* 
 *Thelerpeton oppressus*         
 *Teratophon spinigenis*        
 *Pentaedrusaurus ordocianus*   
@@ -73,7 +74,7 @@ Owenettidae
 
 ![Cisneros_2008_Procolophonid_Data_Matrix_Icytree](https://github.com/SelenaMart28/finalproject/blob/master/Cisneros2008ProcolophonidDataMatrixIcyTree.jpeg)
 
-Once this character information was in Nexus format, I then input the file in IQTree using the Grace cluster provided by Yale University. After this tree was rendered by IQTree, I then created a second .nex file that included my data (in the data matrix). Because I did not have tooth width and length data for all of the specimens included in this tree, I put ? to label data as missing, as is standard in the Nexus format. After this was completed, I input this .nex file into IQTree. 
+Once this character information was in Nexus format, I then input the file in IQTree using the Grace cluster provided by Yale University. After this tree was rendered by IQTree, I then created a second .nex file that included my data (in the data matrix). Because I did not have tooth width and length data for all of the specimens included in this tree, I put ? to label data as missing, as is standard in the Nexus format. After this was completed, I input this .nex file into IQTree. However, when I tried to infer this tree on IQTree with the nexus file I had formed from the Cisneros 2008 data matrix, I kept getting errors. Upon further inspection (and office hours with Lauren), I figured out that my issue with IQTree would probably be best solved by changing the inference program I was using. In his 2008 analysis, Cisneros had originally used TNT (Tree analysis using New Technology), and I decided to use TNT in this project instead. Using TNT as opposed to IQTree makes more sense in this case because I am working with exclusively morphological data, and TNT is a program for tree analysis under parsimony. 
 
 Following this, I then began to use the BioGeoBears package on the Grace cluster. 
 
@@ -116,6 +117,7 @@ If I did these analyses again, I would...
 (https://www.tandfonline.com/doi/abs/10.1017/S1477201907002350).
 - Cisneros, Juan C.; Ruta, Marcello (2010). “Morphological diversity and biogeography of procolophonids (Amniota: Parareptilia)”. Journal of Systematic Palaeontology (8). 		607-625. (https://www.researchgate.net/publication/233302378_Morphological_diversity_and_biogeography_of_procolophonids_Amniota_Parareptilia). 
 - Dias-de-Silva, Sergio; Modesto, Sean P.; Schultz, Cesar L. (2006). “New material of Procolophon (Parareptilia: Procolophonoidea) from the Lower Triassic of Brazil, with remarks on the ages of the Sanga do Cabral and Buena Vista formations of South America”. Canadian Journal of Earth Sciences (43). 1685-1693.(https://www.nrcresearchpress.com/doi/abs/10.1139/e06-043#.X21CFj-Sk2w).
+- Goloboff, P.A. and Catalano, S.A. (2016), TNT version 1.5, including a full implementation of phylogenetic morphometrics. Cladistics, 32: 221-238. doi:10.1111/cla.12160.
 - Maddison DR, Swofford DL, Maddison WP. NEXUS: an extensible file format for systematic information. Syst Biol. 1997 Dec;46(4):590-621. (https://pubmed.ncbi.nlm.nih.gov/11975335/).
 - Marshak, Stephen. (2019). Essentials of Geology. W W Norton. 
 - Molina-Venegas, R., Rodríguez, M.Á. Revisiting phylogenetic signal; strong or negligible impacts of polytomies and branch length information?. BMC Evol Biol 17, 53 (2017). (https://bmcevolbiol.biomedcentral.com/articles/10.1186/s12862-017-0898-y#citeas).

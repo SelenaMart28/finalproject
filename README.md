@@ -40,7 +40,7 @@ Because I suspect that there was a Triassic radiation of procolophonids, I would
 
 The tools I used were... 
 
-DATA MATRIX from Cisneros 2008. 
+# DATA MATRIX from Cisneros 2008. 
 
 ![Cisneros_2008_Data_Matrix](https://github.com/SelenaMart28/finalproject/blob/master/Cisneros2008DataMatrix.JPG?raw=true)
 
@@ -51,6 +51,42 @@ This data matrix was converted into a text file using an OCR, and then this char
 Once this character information was in Nexus format, I then input the file in IQTree using the Grace cluster provided by Yale University. After this tree was rendered by IQTree, I then created a second .nex file that included my data (in the data matrix). Because I did not have tooth width and length data for all of the specimens included in this tree, I put ? to label data as missing, as is standard in the Nexus format. After this was completed, I input this .nex file into IQTree. 
 
 Following this, I then began to use the BioGeoBears package on the Grace cluster. 
+
+# Geographic Regions 
+For use of the BioGeoBears package in R, I first had to compile a list of my geographic regions of interest and their relevance to my taxa of interest. Instead of using political boundaries, I instead use modern continents for this geographic list. Because procolophonids are of Permian and Triassic age, the geographic regions are (quite) different from how they are in the modern day. I am using modern continents for my analysis with BioGeoBears and will then discuss how this geographic distribution would have looked during the Permian and Triassic in the discussion. 
+
+Regions and the number they will be encoded as in BioGeoBears:
+Africa: 0 
+South America: 1
+North America: 2
+Asia: 3
+Antarctica: 4
+Europe: 5
+Oceania: 6
+
+# Taxa 
+Owenettidae               
+*Coletta seca*                
+*Pintosaurus magnidentis*     
+*Sauropareion anoplus*         
+*Phaanthosaurus spp.*          
+*Eumetabolodon dongshengensis* 
+*Theledectes perforatus*       
+*Tichvinskia vjatkensis*       
+*Timanophon raridentatus*      
+*Kapes spp.*                    
+*Thelephon contritus*          
+*Eumetabolodon bathycephalus* 
+*Procolophon trigoniceps*      
+*Thelerpeton oppressus*         
+*Teratophon spinigenis*        
+*Pentaedrusaurus ordocianus*   
+*Neoprocolophon asiaticus*     
+*Sclerosaurus armatus*       
+*Scoloparia glyphanodon*       
+*Leptopleuron lacertinum*     
+*Soturnia caliodon*           
+*Hypsognathus fenneri*
 
 ## Results
 

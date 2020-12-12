@@ -20,7 +20,7 @@ Some guidelines and tips:
 
 OK, here we go.
 
-# Title of my project
+# Project Title
 
 ## Introduction and Goals
 

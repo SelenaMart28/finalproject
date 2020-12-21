@@ -1,0 +1,171 @@
+#NEXUS
+[written Fri Nov 30 19:36:23 BRT 2018 by Mesquite  version 3.2 (build 801) at Logos/127.0.1.1]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=31;
+	TAXLABELS
+		Nyctiphruretus Owenettidae Coletta Pintosaurus Sauropareion Phaantosaurus E_dongshengensis Theledectes Tichvinskia Timanophon K_majmesculae K_bentoni Thelephon E_bathycephalus Procolophon Thelerpeton Teratophon Pentaedrusaurus Neoprocolophon Sclerosaurus Scoloparia Leptopleuron Soturnia Hypsognathus Phonodus Kitchingnathus Lasasaurus Anomoiodon Procolina Mandaphon Eomurruna
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	DIMENSIONS  NCHAR=66;
+	FORMAT DATATYPE = STANDARD GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4 5 6 7 8 9 A B C D E F G H J K M N P Q R S T U V W X Y Z a b c d e f g h j k m n p q r s";
+	CHARSTATELABELS
+		1 Max_premaxillar_subnarial_process /  present absent premax_posterodorsally_expanded, 2 External_naris /  posterior_to_first_premaxillary_tooth anterior_to_first_premaxillary_tooth, 3 external_naris /  anteroposteriorly_elongated subcircular, 4 Wide_internarial_bar /  absent present, 5 snout /  long_flat deep_short, 6 'Maxillary-nasal depression/narial shelf' /  absent present, 7 prefrontal /  medial_border_straight medial_process confined_to_orbital_rim, 8 Posterior_margin_orbitotemporal_f /  anterior_to_post_margin_of_p_foramen 'posterior-most point of the p foramen' beyond_the_posterior_border_of_p_foramen, 9 Pineal_opening_insertion /  shallow_fossa flush_with_dorsal_surface, 10 pineal_opening_shape /  rounded 'teardrop-shaped' straight_posterior_border, 11 Postfrontal /  contacts_fro_pa_po contacts_fro_pa_pob_st contacts_fro_pa 'absent/fused', 12 jugal_lateral_processes /  absent one two, 13 Temporal_ventral_margin /  acutely_emarginated broadly_excavated roughly_straight convex, 14 Quadratojugal_lateral_surface /  spineless one_spine two_or_more_spines, 15 Squamosal_ventral_margin_terminates /  dorsal_to_quadratojugal at_least_as_far_ventrally_as_quadratojugal, 16 skull_roof_posterior_margin /  acute_posterior_process concave broad_posterior_process, 17 postparietal /  present 'absent/fused', 18 supratemporal_posterolateral_margin /  rounded acute prominent_spine, 19 vomer_width /  broader_than_choana roughly_equal_or_narrower, 20 epipterygoid_columella /  ends_freely contact_dorsally_prootic_and_supraoccipital, 21 parasphenoid_cultriform_process_directed /  anteriorly_and_tapers_to_sharp_tip vertically_and_sharp vertically_as_robust_pillar, 22 'basioccipital-quadrate relation' /  'anterior border-quadrate' 'posterior border-quadrate', 23 Occipital_condyle /  basioccipital_larger_than_exoccipital 'exoccipital forms 1/3 of the condyle', 24 dentary_ventral_and_dorsal_surfaces /  nearly_pararel oblique_15_degrees_or_more, 25 'articular-marginal dentition relation' /  roughly_in_line well_below, 26 Premaxillar_tooth_number /  five_or_more four three two, 27 premaxillar_teeth /  subequal enlarged_mesialmost_incisor, 28 maxillary_teeth_with_labiolingually_expanded_bases /  absent present, 29 maxillary_bulbous_teeth /  absent present, 30 maxillary_teeth_cervices /  not_constricted constricted, 31 Maxillary_teeth_cusps /  one two monocuspid_teeth_absent, 32 maxillary_tooth_number /  '35-15' '12-10' '8-6' 5, 33 Maxillary_cheek_teeth /  not_inset inset, 34 maxillary_teeth_deep_occlusal_deppresion_or_basin, 35 Vomerine_dentition /  several_denticles true_teeth entirely_absent, 36 'vomerine teeth/denticles along posterior medial suture' /  present absent, 37 Palatine_dentition /  denticles true_teeth absent, 38 'pterigoyd denticles/teeth' /  present absent, 39 dentary_incisors /  two_or_more one, 40 'dentary post-incisiform teeth basal cross section' /  circular labiolingually_expanded mesodistally_elongated, 41 'dentary post-incisiform teeth cusps number' /  one two_very_close two_separated, 42 longitudinal_sulcus_in_pleurocentra /  present absent paired_sulcci, 43 caudal_vertebrae /  20_or_more 17_or_less, 44 presacral_intercentra /  present absent, 45 interclavicle_longitudinal_ridge /  smooth prominent, 46 rib_cage_maximum_width /  short large, 47 interclavicle_lateral_processes_distally /  straight posteriorly_curved, 48 ectepicondylar_foramen_or_groove_on_humerus /  present absent, 49 Entepicondylar_process /  parallel_to_shaft perpendicular, 50 entepicondylar_foramen_on_humerus /  present absent, 51 'non-terminal manual phalanges' /  'long-slender' 'short-robust', 52 'ungual-penultimate manual phalanx ratio' /  equal_or_shorter longer, 53 Illiac_anterior_surface /  convex straight, 54 'femur-humerus length ratio' /  femur_longer 'femur=humerus', 55 femur /  slender robust, 56 osteoderms /  absent present, 57 'lacrimal-ectopterygoid contact' /  absent present, 58 Supraoccipital_posterior_aspect /  dorsally_expanded reduced_to_sagittal_pillar, 59 Cleithrum /  present absent, 60 astragalum_and_calcaneum /  fused not_fused, 61 neural_spines_in_thoracic_vertebrae /  vertical lean_posteriorly, 62 'Supraoccipital-opisthotic occipital contact' /  cartilaginose ossified, 63 Hypoglosal_foramina_placement /  posterior_to_metotic_f. ventral_to_metotic_f. anterior_to_metotic_f., 64 metotic_foramen /  surrounded_by_bone partially_surrounded_by_cartilage, 65 Quadratojugal_anterior_process_on_ventral_embayment /  present absent, 66 Quadratojugal_posterior_facial_process /  absent present ;
+	MATRIX
+	Nyctiphruretus    0000000000000000000?0000000000000-00000000000000000000000?00?00000
+	Owenettidae       000000000010000??00?0000000000000-000000010000100100100000??01??00
+	Coletta           001000000000000???0????0?10100010-11??0?0???????????????????????10
+	Pintosaurus       20????????????????0????0?20100010-111??10????????????????0????????
+	Sauropareion      ????00010020101000000101010000010-1110000????0011011111?100001??01
+	Phaantosaurus     10101000???0??????1?????020110010-101?010?????????????????????????
+	E_dongshengensis  ?????01????0??????1????????000020-1?1??00?????????????????????????
+	Theledectes       ??????12103010?01??????0?21010020-???0000???????00????????????????
+	Tichvinskia       1010000210301010101000000211101210101?012?0??1?1101?01101111001010
+	Timanophon        ?????01201201010101?010002?11012001010012??????1?0???????11??01011
+	K_majmesculae     1111?01201301010111????002111012101010011???????????????1???1???11
+	K_bentoni         1??11??2013011?011???1?002?1101210????0?1??1??1110????????????????
+	Thelephon         ??????12012010?011?????0????101?101?10??????????????????????????11
+	E_bathycephalus   211110021020111??21??100021110121010100121??????????????????????10
+	Procolophon       211110011020111012100100021100?2101?100120101111101101101111012010
+	Thelerpeton       2?111?0110201110121??1?00211101?10101001????1?1???11????????????10
+	Teratophon        2111100110?01110121?0100021110121010100?????111110?????01???????10
+	Pentaedrusaurus   ?111100212301110111????1121110121?111001?1?01?111010?110???11???10
+	Neoprocolophon    ??1110?21??011?21?1?????1?????1?1?11?0??????????????????????????10
+	Sclerosaurus      ???????210?032?2?2???????3?11??21??????1211011?110101111???0????-0
+	Scoloparia        ?????1021?3232???1?????1?311002?10????012??????????????1????????-0
+	Leptopleuron      211101021031320212111?11131111231011201112001111?0???1?011101121-0
+	Soturnia          10???1????????????1????113111123112???1201?1?????0??????????1?????
+	Hypsognathus      ?01?01221032320?12111111131111131121211??1?1?1???0?????0?11?1121-0
+	Phonodus          1?11101????0200???1?????????10??0?1121??????????????????1???????-1
+	Kitchingnathus    ?0??000?00?010?010?????00?01001100?????12???????????????????????1?
+	Lasasaurus        ???????????0101????????00??1101?00???0?????0101?010???????0?????1?
+	Anomoiodon        ???1??1211?0?0?011?????01???1?1?1??????1???0???1?0???0?0???01?????
+	Procolina         11???1????????????1????0?211100?0-1?20000??0??????????????????????
+	Mandaphon         21110?021120120012???1?113111?12101???????????1????????0????????-?
+	Eomurruna         111000121000?0001010?100020010020-10100001?01?11101001101101001001
+
+;
+
+END;
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1 -  66;
+
+	EXSET * UNTITLED  = ;
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Mk1 (est.)':  1 -  66;
+END;
+
+BEGIN NOTES;
+
+	TEXT   TAXON = 22 CHARACTER = 1 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   TAXON = 23 CHARACTER = 4 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   TAXON = 1 CHARACTER = 6 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   TAXON = 10 CHARACTER = 7 TEXT = Recoded_after_observation_of_the_holotype_at_PIN.;
+	TEXT   TAXON = 22 CHARACTER = 7 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   TAXON = 20 CHARACTER = 8 TEXT = Recoded_after_Sues_and_Reisz_2008.;
+	TEXT   TAXON = 24 CHARACTER = 8 TEXT = Recoded_to_be_informative.;
+
+	TEXT   TAXON = 20 CHARACTER = 12 TEXT = Recoded_after_Sues_and_Reisz_2008.;
+
+	TEXT   TAXON = 1 CHARACTER = 13 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   TAXON = 10 CHARACTER = 14 TEXT = Recoded_after_observation_of_the_holotype_at_PIN.;
+
+	TEXT   TAXON = 1 CHARACTER = 15 TEXT = Recoded_after_S�il�_2010.;
+	TEXT   TAXON = 22 CHARACTER = 15 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   TAXON = 1 CHARACTER = 16 TEXT = Recoded_after_S�il�_2010.;
+	TEXT   TAXON = 10 CHARACTER = 16 TEXT = REcoded_after_examination_of_the_holotype.;
+
+	TEXT   TAXON = 20 CHARACTER = 18 TEXT = Recoded_after_Sues_and_Reisz_2008.;
+
+	TEXT   TAXON = 5 CHARACTER = 20 TEXT = MacDougall_et_al_2013.;
+
+	TEXT   TAXON = 5 CHARACTER = 21 TEXT = MacDougall_et_al_2013.;
+
+	TEXT   TAXON = 30 CHARACTER = 22 TEXT = 'Recoded to fit the description by the author (probably a typo in Tsuji 2017)';
+
+	TEXT   CHARACTER = 23 TEXT = Redefined.;
+
+	TEXT   TAXON = 10 CHARACTER = 24 TEXT = Recoded_after_literature.;
+
+	TEXT   TAXON = 5 CHARACTER = 26 TEXT = MacDougall_et_al_2013.;
+
+	TEXT   TAXON = 5 CHARACTER = 27 TEXT = MacDougall_et_al_2013.;
+	TEXT   TAXON = 22 CHARACTER = 27 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   TAXON = 13 CHARACTER = 28 TEXT = Fixed_typo_from_Cisneros_2008a.;
+	TEXT   TAXON = 15 CHARACTER = 28 TEXT = Fixed_typo_from_Cisneros_2008a.;
+	TEXT   TAXON = 19 CHARACTER = 28 TEXT = Fixed_typo_from_Cisneros_2008a.;
+	TEXT   TAXON = 20 CHARACTER = 28 TEXT = Recoded_after_Sues_and_Reisz_2008.;
+
+	TEXT   TAXON = 11 CHARACTER = 29 TEXT = 'Recoded for K_majmesculae.';
+
+	TEXT   TAXON = 22 CHARACTER = 31 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   TAXON = 1 CHARACTER = 32 TEXT = Recoded_after_S�il�_2010;
+
+	TEXT   TAXON = 10 CHARACTER = 33 TEXT = Recoded_after_observation_of_the_holotype.;
+
+	TEXT   TAXON = 22 CHARACTER = 38 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   TAXON = 5 CHARACTER = 39 TEXT = MacDougall_et_al_2013.;
+
+	TEXT   TAXON = 20 CHARACTER = 40 TEXT = Recoded_after_Sues_and_Reisz_2008.;
+	TEXT   TAXON = 31 CHARACTER = 40 TEXT = Excluding_the_incisor.;
+
+	TEXT   TAXON = 20 CHARACTER = 41 TEXT = Recoded_after_Sues_and_Reisz_2008.;
+
+	TEXT   CHARACTER = 42 TEXT = Added_another_state_to_accomodate_the_condition_in_Leptopleuron.;
+
+	TEXT   TAXON = 22 CHARACTER = 44 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   TAXON = 20 CHARACTER = 45 TEXT = Recoded_after_Sues_and_Reisz_2008.;
+	TEXT   TAXON = 22 CHARACTER = 45 TEXT = Recoded_after_S�il�_2010.;
+	TEXT   TAXON = 23 CHARACTER = 45 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   CHARACTER = 46 TEXT = Redefined.;
+	TEXT   TAXON = 5 CHARACTER = 46 TEXT = MacDougall_et_al_2013.;
+
+	TEXT   TAXON = 5 CHARACTER = 47 TEXT = MacDougall_et_al_2013.;
+	TEXT   TAXON = 22 CHARACTER = 47 TEXT = Recoded_after_S�il�_2010.;
+	TEXT   TAXON = 23 CHARACTER = 47 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   TAXON = 5 CHARACTER = 48 TEXT = MacDougall_et_al_2013.;
+	TEXT   TAXON = 10 CHARACTER = 48 TEXT = Based_on_observation_at_specimen_3359_PIN.;
+	TEXT   TAXON = 22 CHARACTER = 48 TEXT = Recoded_after_S�il�_2010.;
+	TEXT   TAXON = 23 CHARACTER = 48 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   TAXON = 5 CHARACTER = 49 TEXT = MacDougall_et_al_2013.;
+
+	TEXT   TAXON = 10 CHARACTER = 50 TEXT = Based_on_observation_at_specimen_3359_PIN.;
+	TEXT   TAXON = 20 CHARACTER = 50 TEXT = Recoded_after_Sues_and_Reisz_2008.;
+	TEXT   TAXON = 22 CHARACTER = 50 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   TAXON = 5 CHARACTER = 51 TEXT = MacDougall_et_al_2013.;
+
+	TEXT   TAXON = 5 CHARACTER = 52 TEXT = MacDougall_et_al_2013.;
+
+	TEXT   TAXON = 5 CHARACTER = 53 TEXT = MacDougall_et_al_2013.;
+
+	TEXT   TAXON = 5 CHARACTER = 54 TEXT = MacDougall_et_al_2013.;
+	TEXT   TAXON = 22 CHARACTER = 54 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   TAXON = 5 CHARACTER = 55 TEXT = MacDougall_et_al_2013.;
+
+	TEXT   TAXON = 22 CHARACTER = 57 TEXT = Recoded_after_S�il�_2010.;
+
+	TEXT   TAXON = 5 CHARACTER = 62 TEXT = Tentative_codding.;
+
+END;

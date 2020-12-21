@@ -75,14 +75,14 @@ Owenettidae
 
 ![Cisneros_2008_Procolophonid_Data_Matrix_Icytree](https://github.com/SelenaMart28/finalproject/blob/master/Cisneros2008ProcolophonidDataMatrixIcyTree.jpeg)
 
-Once this character information was in Nexus format, I then input the file in IQTree using the Grace cluster provided by Yale University. After this tree was rendered by IQTree, I then created a second .nex file that included my data (in the data matrix). Because I did not have tooth width and length data for all of the specimens included in this tree, I put ? to label data as missing, as is standard in the Nexus format. After this was completed, I input this .nex file into IQTree. However, when I tried to infer this tree on IQTree with the nexus file I had formed from the Cisneros 2008 data matrix, I kept getting errors. Upon further inspection (and office hours with Lauren), I figured out that my issue with IQTree would probably be best solved by changing the inference program I was using. In his 2008 analysis, Cisneros had originally used TNT (Tree analysis using New Technology), but I decided to use RevBayes in this project instead. 
+Once this character information was in Nexus format, I then input the file in IQTree using the Grace cluster provided by Yale University. After this tree was rendered by IQTree, I then created a second .nex file that included my data (in the data matrix). Because I did not have tooth width and length data for all of the specimens included in this tree, I put ? to label data as missing, as is standard in the Nexus format. After this was completed, I input this .nex file into IQTree. I was able to fix the errors I kept getting and was able to render a tree in IQTree. 
 
-Following this, I then began to use the BioGeoBears package on the Grace cluster. 
+Following this, I then began to use the 'caper' package (and the PGLS analysis) in R. 
 
 # Geographic Regions 
-For use of the BioGeoBears package in R, I first had to compile a list of my geographic regions of interest and their relevance to my taxa of interest. Instead of using political boundaries, I instead use modern continents for this geographic list. Because procolophonids are of Permian and Triassic age, the geographic regions are (quite) different from how they are in the modern day. I am using modern continents for my analysis with BioGeoBears and will then discuss how this geographic distribution would have looked during the Permian and Triassic in the discussion. 
+I first had to compile a list of my geographic regions of interest and their relevance to my taxa of interest. Instead of using political boundaries, I instead use modern continents for this geographic list. Because procolophonids are of Permian and Triassic age, the geographic regions are (quite) different from how they are in the modern day. I am using modern continents for my analysis with caper/PGLS and will then discuss how this geographic distribution would have looked during the Permian and Triassic in the discussion. 
 
-Regions and the number they will be encoded as in BioGeoBears:
+Regions and the number they will be encoded as characters in my Nexus file:
 
 Africa: 0 
 
@@ -98,7 +98,8 @@ Europe: 5
 
 Oceania: 6
 
-Using the areas_list_to_states_list_new command in R/BioGeoBears, we can convert a list of areas to a list of geographic regions (states). Because I am not planning to use a larger number of states (7 at most), I expect this analysis to run relatively fast. The list of areas that will be used in this analysis is shown above. The maximum number of areas in the analysis is 7 (1 per state). Because each of the taxa *has* to exist on a continent, the null range will not be included in possible states. I will use the define_tipranges_object to input my geographic data for my taxa of interest. 
+I am planning on adding geographic region as a character to the current Nexus file taken from Cisneros 2008. The list of areas that will be used in this analysis is shown above. The maximum number of areas in the analysis is 7 (1 per state). Because each of the taxa *has* to exist on a continent, the null range will not be included in possible states. I will use the define_tipranges_object to input my geographic data for my taxa of interest. 
+
 ## Results
 
 The tree in Figure 1...

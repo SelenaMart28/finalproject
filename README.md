@@ -8,12 +8,11 @@ The goal of my project is to answer the following question: are procolophonids t
 
 For this project, I will compare the various dentitions of procolophonids, an extinct clade of anapsid reptiles that lived during the late Permian through the Triassic (~300-200 million years ago). Procolophonids are the only clade within the larger clade Parareptilia to survive the Permo-Triassic mass extinction, the most devastating mass extinction to occur in earth’s history (Essentials of Geology). Procolophonids are a large and successful group of parareptiles with more than 30 known genera (Cisneros, 2008). They occupied a wide geographic range, including the Americas, Europe, Asia, Africa, and Antarctica (Dias-de-Silva, Modesto and Schultz, 2006; Cisneros and Ruta, 2010). Research has shown that procolophonids likely had a fossorial (burrowing) lifestyle, feeding on insects and plants (Botha-Brink and Smith, 2012). Most researchers think procolophonids are herbivorous or durophagous, but there no full analysis of procolophonid teeth has been done in relation to their places on the tree of life. 
 
-The methods I will use to do this include phylogenetic generalized least squares (PGLS). The tree I will be using is taken from Cisneros' 2008 paper on procolophonid phylogeny, though I will be removing taxa for which I do not have tooth area values. In order to remove any bias from this analysis, I will not include any dentition traits from the Cisneros paper which may confound my phylogenetic signal analysis. Once this analysis is complete, I will then study whether dentition changes correlate with changes in diet. Using procolophonid biogeographical data, which is available in the literature, I will be able to see if shifts in habitat and dentition occur simultaneously. If they do occur simultaneously, it may be hypothesized that a change in diet occurred during this period. 
+The methods I will use to do this include phylogenetic generalized least squares (PGLS). The tree I will be using is taken from Cisneros' 2008 paper on procolophonid phylogeny, and I will be using Character #28, which is the presence/absence of labiolingual tooth broadening. Once this analysis is complete, I will then study whether dentition changes correlate with changes in diet. Using procolophonid biogeographical data, which is available in the literature, I will be able to see if shifts in habitat and dentition occur simultaneously. If they do occur simultaneously, it may be hypothesized that a change in diet occurred during this period. 
 
 I will use the R package 'caper' to run the PGLS analysis and do a phylogenetic regression of dentition characters on geography. Instead of using BioGeoBEARS for this analysis of dentition and geographic location, I decided (with the help of Professor Dunn!) to do a regression of dentition characters onto geography. Instead of creating a separate BioGeoBEARS geography text file, I will code the geographical location as a character (using 0 - 6) and add it to the original Nexus file I obtained from Cisneros 2008.
 
-The data I will use is my own, collected as part of a survey of published research with occlusal views of procolophonid dentition. To conduct the initial phylogenetic inference, I will be using traits detailed in Juan C. Cisneros' 2008 paper on procolophonid phylogeny and using this tree (and the traits) to perform a phylogenetic signal analysis based on dentition. Additionally, I will perform a PGLS analysis based on geographic location. This analysis will aid in understanding the evolutionary relationship between dentition and habitat, and it will, hopefully, shed light on procolophonid radiation in the Triassic and diversity in niche occupation. 
-
+The data I will use is from a character state matrix taken from Cisneros 2008, as well as the phylogeny used. To conduct the initial phylogenetic inference, I will be using traits detailed in Juan C. Cisneros' 2008 paper on procolophonid phylogeny and using this tree (and the traits) to perform a phylogenetic signal analysis based on dentition. Additionally, I will perform a PGLS analysis based on geographic location. This analysis will aid in understanding the evolutionary relationship between dentition and habitat, and it will, hopefully, shed light on procolophonid radiation in the Triassic and diversity in niche occupation. 
 
 Because I suspect that there was a Triassic radiation of procolophonids, I would expect there to be lower association between procolophonids that exhibit vastly different tooth sizes and greater association between procolophonids that have similar tooth sizes (and therefore likely had similar diets and occupied similar niches). 
 
@@ -23,7 +22,7 @@ Because I suspect that there was a Triassic radiation of procolophonids, I would
 
 ![Cisneros_2008_Data_Matrix](https://github.com/SelenaMart28/finalproject/blob/master/Cisneros2008DataMatrix.JPG?raw=true)
 
-This data matrix was converted into a text file using an OCR, and then this character information was put into Nexus format. This data (in Nexus format) is included in the files of this repository. The tree shown belown was rendered in IcyTree for visualization of the procolophonid phylogeny from Cisneros 2008. This is the original tree, formed from a .nex file that used the data matrix given in Cisneros 2008 (this data matrix was included in-text, but was not included as a separate file in any supplementals, to this student's chagrin).
+This data matrix was converted into a text file using an OCR, and then this character information was put into Nexus format. This data (in Nexus format) is included in the files of this repository. The tree shown belown was rendered in IcyTree for visualization of the procolophonid phylogeny from Cisneros 2008. This is the original tree, formed from a .nex file that used the data matrix given in Cisneros 2008 (this data matrix was included in-text, but was not included as a separate file in any supplementals, to this student's chagrin). However, eventually, in correspondence with Cisneros, I was able to obtain the proper data/file formats needed for this analysis, which I have included in the repository. 
 
 ## Taxa 
 Owenettidae               
@@ -50,6 +49,13 @@ Owenettidae
 *Leptopleuron lacertinum*     
 *Soturnia caliodon*           
 *Hypsognathus fenneri*
+*Phonodus dutoitorum*
+*Kitchingnathus untabeni*
+*Lasasaurus beltanae*
+*Anomoiodon liliensterni*
+*Procolina teresae*
+*Mandaphon nadra*
+*Eomurruna yurrgensis*
 
 ![Cisneros_2008_Procolophonid_Data_Matrix_Icytree](https://github.com/SelenaMart28/finalproject/blob/master/Cisneros2008ProcolophonidDataMatrixIcyTree.jpeg)
 

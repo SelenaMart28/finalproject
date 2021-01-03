@@ -114,6 +114,8 @@ The first two show the fit of the residuals to a normal distribution: a density 
 ## Diagnostic Plots (II)
 The second two show the fitted values against both the residuals and the observed value to look for pattern in the residuals within the model. 
 
+![ResidualValue vs. Fitted Value](
+
 ## Discussion
 
 These results indicate that there is no relationship between geographic location and whether or not teeth are labio-lingually broadened. 

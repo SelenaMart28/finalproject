@@ -100,13 +100,20 @@ Oceania: 6
 
 I am planning on adding geographic region as a character to the current Nexus file taken from Cisneros 2008. The list of areas that will be used in this analysis is shown above. The maximum number of areas in the analysis is 7 (1 per state). Because each of the taxa *has* to exist on a continent, the null range will not be included in possible states. I will use the define_tipranges_object to input my geographic data for my taxa of interest. 
 
+# Teeth Morphology (Whether or not teeth are labio-lingually broadened)
+Rather than import my own data from my own research (due to time constraints and how I've drawn out this project), I decided in the end to use dentition data taken from the data matrix provided to me by Cisneros. I had my pick of dentition characters and I decided to use "labio-lingual broadening (widening)" as the factor of interest in this project. "Labio" means "towards the front of the mouth", and "lingual" means "towards the back of the mouth". Tooth morpology can be connected to diet, and identifying/understanding the dental morphologies of various animals can aid in determing their potential diets. This is, of course, helpful when working with long-extinct animals, as it can be quite difficult to ascertain their ways of life any other way. 
+
 ## Results
 
-The tree in Figure 1...
+# Diagnostic Plots (I)
+The first two show the fit of the residuals to a normal distribution: a density plot of the distribution of the residuals and a normal Q-Q plot: the distribution of the residuals against their expected distribution under a normal distribution.
+
+# Diagnostic Plots (II)
+The second two show the fitted values against both the residuals and the observed value to look for pattern in the residuals within the model. 
 
 ## Discussion
 
-These results indicate...
+These results indicate that there is no relationship between geographic location and whether or not teeth are labio-lingually broadened. 
 
 ## Reflection
 

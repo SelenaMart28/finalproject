@@ -22,7 +22,7 @@ OK, here we go.
 
 # An Investigation into the Relationship between Procolophonid Biogeography and Tooth Morphology
 
-## Introduction and Goals
+# Introduction and Goals
 
 The goal of my project is to answer the following question: are procolophonids that have similar tooth sizes more closely related to one another than procolophonids with differing tooth sizes? I am interested to see if more closely related procolophonids may have more similar diets and lifestyles.
 
@@ -37,7 +37,7 @@ The data I will use is my own, collected as part of a survey of published resear
 
 Because I suspect that there was a Triassic radiation of procolophonids, I would expect there to be lower association between procolophonids that exhibit vastly different tooth sizes and greater association between procolophonids that have similar tooth sizes (and therefore likely had similar diets and occupied similar niches). 
 
-## Methods
+# Methods
 
 The tools I used were... 
 
@@ -105,7 +105,7 @@ Rather than import my own data from my own research (due to time constraints and
 
 ![Labiolingually-broadened Teeth](https://github.com/SelenaMart28/finalproject/blob/master/FinalProjectLabioLingualTeethImage.JPG)
 
-## Results
+# Results
 
 ## Diagnostic Plots (I)
 The first two show the fit of the residuals to a normal distribution: a density plot of the distribution of the residuals and a normal Q-Q plot: the distribution of the residuals against their expected distribution under a normal distribution.
@@ -119,17 +119,29 @@ The second two show the fitted values against both the residuals and the observe
 ![ResidualValue vs. Fitted Value](https://github.com/SelenaMart28/finalproject/blob/master/FinalProjectRMDResidualValuevsFittedValue.JPG)
 ![FittedValue vs. Observed Value](https://github.com/SelenaMart28/finalproject/blob/master/FinalProjectRMDFittedValuevsObservedValue.JPG)
 
-## Discussion
+## 1. Character Data Acquisition 
+I have downloaded the available specimen data made available to me by John C. Cisneros via messages on ResearchGate. This data matrix (originally formatted for TNT and Mesquite) was then input into IQTree to provide a TREE file. This tree file (of the phylogeny) was read using the ‘caper’ package’s “read.tree” command. The specimen data was read using the ‘caper’ package’s “read.nexus.data” command, and, after this, the data has to be converted into a data matrix to be used by this package and then I had to transpose it in order to have the data be read correctly by the “comparative.data” and “pgls” commands. 
 
-These results indicate that there is no relationship between geographic location and whether or not teeth are labio-lingually broadened. 
+## 2. Continent Data Acquisition 
+I compiled the continent data from FossilWorks, a website that provides query, download, and analysis tools that utilize the Paleobiology Database 's large relational database assembled by hundreds of paleontologists from around the world. After gathering this data, I then created a file with the encoded continent data (located in the Github Repository).
 
-## Reflection
+## 3. Phylogenetic Generalized Least Squares (PGLS)
+When interpreting these results, the “intercept” is the likelihood of a species from a specific area present labiolingual tooth broadening. The “intercept” in this coefficient table is, by default, the “0” value (which I have labeled as “Africa”), so the subsequent values (as.factor(GeoLoc)1, etc.) show the likelihood relative to the intercept (i.e. the “0” value, i.e. Africa). The slope shows the difference in likelihood between species of different continents presenting labiolingual tooth broadening or not presenting labiolingual tooth broadening. 
+
+I used the command: “Geo.from.Max.Teeth <- pgls(as.numeric(V28) ~ as.factor(GeoLoc), cdat)” to examine the relationship between labiolingual tooth broadening and geographic location (continent).
+
+There are no significant relationships to be reported, and there was no relationship identified between geographic location and whether or not teeth are labio-lingually broadened. 
+
+# Discussion
+
+
+# Reflection
 
 The biggest difficulty in implementing these analyses was gathering my data and determining what would make the most practical sense given the timeline of the course. Wrangling my data proved the most challenging and frustrating part of this project. Initially, I planned to use a character data matrix provided by Cisneros 2008, but the way the data matrix was uploaded made it near-unusable to use for recreating Cisneros' original analysis or using his data for further research. I reached out to Cisneros to obtain an actual usable file for my analysis. After this, I decided to try my hand at making my own data matrix (in the proper NEXUS, downloadable format), but I struggled to get IQTree (on the Cluster) to read my data. Eventually, my requests were answered! Cisneros messaged me with a usable file for my analysis and is the MatrixforEomurruna.nex file that I use in this project. I mention all of this because this difficulty in obtaining data from the literature showed me how important it is to leave data easily accessible and available for reproduction of research. It's integral to science!
 
 If I did these analyses again, I would try to be better about outlining exactly what I wanted to do in this analysis and try to be better about what exactly I need to do to conduct this project. I would also try to be more proactive about seeking help (especially with the techinal R/coding portion of this project) earlier in the project. 
 
-## References
+# References
 - Blomberg S. P.,  Garland T.Jr.,  Ives A. R.. Testing for phylogenetic signal in comparative data: Behavioral traits are more labile, Evolution, 2003, vol. 57 (pg. 717-745)   (https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.0014-3820.2003.tb00285.x).
 - Botha Brink, Jennifer; Smith, Roger M. H. (2012). “Palaeobiology of Triassic procolophonids, inferred from bone microstructurePaleobiology of triassic procolophonids deduced from their bone microstructure”. Palevol Reviews 11. 419-433. (https://www.sciencedirect.com/science/article/pii/S1631068312000735).
 - Cisneros, Juan C. (2008). “Phylogenetic relationships of procolophonid parareptiles with remarks on their geological record”. Journal of Systematic Palaeontology 6.

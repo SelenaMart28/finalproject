@@ -92,9 +92,9 @@ The first two show the fit of the residuals to a normal distribution: a density 
 ![Normal_QQPlot](https://github.com/SelenaMart28/finalproject/blob/master/NormalQQPlotFinalProjectImage.JPG)
 
 ## Diagnostic Plots (II)
-The second two show the fitted values against both the residuals and the observed value to look for pattern in the residuals within the model. 
+The second two show the fitted values against both the residuals and the observed value to look for pattern in the residuals within the model. There is a non-random pattern in this model. 
 
-![ResidualValue vs. Fitted Value](https://github.com/SelenaMart28/finalproject/blob/master/FinalProjectRMDResidualValuevsFittedValue.JPG)
+![ResidualValue vs. Fitted Value](https://github.com/SelenaMart28/finalproject/blob/master/ResidualValuevsFittedValueFinalProjectImage.JPG)
 ![FittedValue vs. Observed Value](https://github.com/SelenaMart28/finalproject/blob/master/FinalProjectRMDFittedValuevsObservedValue.JPG)
 
 ## 1. Character Data Acquisition 

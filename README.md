@@ -88,7 +88,7 @@ Rather than import my own data from my own research (due to time constraints and
 ## Diagnostic Plots (I)
 The first two show the fit of the residuals to a normal distribution: a density plot of the distribution of the residuals and a normal Q-Q plot: the distribution of the residuals against their expected distribution under a normal distribution.
 
-![Density_Default_Curve](https://github.com/SelenaMart28/finalproject/blob/master/FinalProjectRMDDensityDefaultGraph.JPG)
+![Density_Default_Curve](https://github.com/SelenaMart28/finalproject/blob/master/densitydefaultFinalProjectImage.JPG)
 ![Normal_QQPlot](https://github.com/SelenaMart28/finalproject/blob/master/FinalProjectRMDNormalQQPlot.JPG)
 
 ## Diagnostic Plots (II)

@@ -20,7 +20,7 @@ Some guidelines and tips:
 
 OK, here we go.
 
-# Project Title
+# An Investigation into the Relationship between Procolophonid Biogeography and Tooth Morphology
 
 ## Introduction and Goals
 

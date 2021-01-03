@@ -1,0 +1,51 @@
+---
+title: "FinalProjectPhyloBio"
+author: "Selena"
+date: "1/2/2021"
+output: html_document
+---
+
+```{r}
+#packages used 
+library(caper)
+library(ape)
+library(phytools)
+```
+
+```{r}
+#creating objects
+matrix.data <- read.nexus.data("MatrixforEomurruna.nex")
+matrix.tree <- read.tree("MatrixforEomurruna.nex.treefile")
+
+#converting into data frame
+matrix.data.frame <- as.data.frame(matrix.data, row.names = NULL, optional = FALSE, cut.names = FALSE, col.names = names(matrix.data), fix.empty.names = TRUE, stringsAsFactors = FALSE) 
+
+#transposing data frame
+matrix.data.frame <- as.data.frame(t(matrix.data.frame))
+
+#add taxa to data frame
+matrix.data.frame$taxa <- names(matrix.data)
+
+#root tree
+matrix.tree.rooted <- root(matrix.tree, "Nyctiphruretus", resolve.root=T)
+
+GeoLocation <- c(5,0,0,1,0,5,3,0,5,5,5,5,0,3,1,0,0,3,3,5,2,5,1,2,0,0,0,5,5,0,6)
+matrix.data.frame$GeoLoc <- GeoLocation
+```
+
+```{r}
+cdat <- comparative.data(data=matrix.data.frame, phy=matrix.tree.rooted, names.col = "taxa")
+print(cdat)
+
+```
+
+```{r}
+Geo.from.Max.Teeth <- pgls(as.numeric(V28) ~ as.factor(GeoLoc), cdat)
+
+summary(Geo.from.Max.Teeth)
+
+plot(Geo.from.Max.Teeth)
+```
+
+
+

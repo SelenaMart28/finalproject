@@ -25,29 +25,48 @@ Because I suspect that there was a Triassic radiation of procolophonids, I would
 This data matrix was converted into a text file using an OCR, and then this character information was put into Nexus format. This data (in Nexus format) is included in the files of this repository. The tree shown belown was rendered in IcyTree for visualization of the procolophonid phylogeny from Cisneros 2008. This is the original tree, formed from a .nex file that used the data matrix given in Cisneros 2008 (this data matrix was included in-text, but was not included as a separate file in any supplementals, to this student's chagrin). However, eventually, in correspondence with Cisneros, I was able to obtain the proper data/file formats needed for this analysis, which I have included in the repository. 
 
 ## Taxa 
-Owenettidae               
-*Coletta seca*                
-*Pintosaurus magnidentis*     
-*Sauropareion anoplus*         
+Owenettidae   
+
+*Coletta seca*
+
+*Pintosaurus magnidentis*
+
+*Sauropareion anoplus*
+
 *Phaanthosaurus spp.* 
 
 *Eumetabolodon dongshengensis* 
-*Theledectes perforatus*       
-*Tichvinskia vjatkensis*       
-*Timanophon raridentatus*      
-*Kapes spp.*                    
-*Thelephon contritus*          
+
+*Theledectes perforatus*
+
+*Tichvinskia vjatkensis*
+
+*Timanophon raridentatus*  
+
+*Kapes spp.*
+
+*Thelephon contritus*
+
 *Eumetabolodon bathycephalus* 
 
 *Procolophon trigoniceps* 
-*Thelerpeton oppressus*         
-*Teratophon spinigenis*        
-*Pentaedrusaurus ordocianus*   
-*Neoprocolophon asiaticus*     
-*Sclerosaurus armatus*       
-*Scoloparia glyphanodon*       
-*Leptopleuron lacertinum*     
-*Soturnia caliodon*           
+
+*Thelerpeton oppressus* 
+
+*Teratophon spinigenis* 
+
+*Pentaedrusaurus ordocianus* 
+
+*Neoprocolophon asiaticus*
+
+*Sclerosaurus armatus*
+
+*Scoloparia glyphanodon*
+
+*Leptopleuron lacertinum*
+
+*Soturnia caliodon*
+
 *Hypsognathus fenneri*
 
 *Phonodus dutoitorum*

@@ -95,7 +95,7 @@ The first two show the fit of the residuals to a normal distribution: a density 
 The second two show the fitted values against both the residuals and the observed value to look for pattern in the residuals within the model. There is a non-random pattern in this model. 
 
 ![ResidualValue vs. Fitted Value](https://github.com/SelenaMart28/finalproject/blob/master/ResidualValuevsFittedValueFinalProjectImage.JPG)
-![FittedValue vs. Observed Value](https://github.com/SelenaMart28/finalproject/blob/master/FinalProjectRMDFittedValuevsObservedValue.JPG)
+![FittedValue vs. Observed Value](https://github.com/SelenaMart28/finalproject/blob/master/FittedValuevsObservedValueFinalProjectImage.JPG)
 
 ## 1. Character Data Acquisition 
 I have downloaded the available specimen data made available to me by John C. Cisneros via messages on ResearchGate. This data matrix (originally formatted for TNT and Mesquite) was then input into IQTree to provide a TREE file. This tree file (of the phylogeny) was read using the ‘caper’ package’s “read.tree” command. The specimen data was read using the ‘caper’ package’s “read.nexus.data” command, and, after this, the data has to be converted into a data matrix to be used by this package and then I had to transpose it in order to have the data be read correctly by the “comparative.data” and “pgls” commands. 

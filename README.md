@@ -102,6 +102,7 @@ I am planning on adding geographic region as a character to the current Nexus fi
 
 ## Teeth Morphology (Whether or not teeth are labio-lingually broadened)
 Rather than import my own data from my own research (due to time constraints and how I've drawn out this project), I decided in the end to use dentition data taken from the data matrix provided to me by Cisneros. I had my pick of dentition characters and I decided to use "labio-lingual broadening (widening)" as the factor of interest in this project. "Labio" means "towards the front of the mouth", and "lingual" means "towards the back of the mouth". Tooth morpology can be connected to diet, and identifying/understanding the dental morphologies of various animals can aid in determing their potential diets. This is, of course, helpful when working with long-extinct animals, as it can be quite difficult to ascertain their ways of life any other way. 
+
 ![Labiolingually-broadened Teeth](https://github.com/SelenaMart28/finalproject/blob/master/FinalProjectLabioLingualTeethImage.JPG)
 
 ## Results

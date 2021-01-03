@@ -115,6 +115,7 @@ The first two show the fit of the residuals to a normal distribution: a density 
 The second two show the fitted values against both the residuals and the observed value to look for pattern in the residuals within the model. 
 
 ![ResidualValue vs. Fitted Value](https://github.com/SelenaMart28/finalproject/blob/master/FinalProjectRMDResidualValuevsFittedValue.JPG)
+![FittedValue vs. Observed Value](https://github.com/SelenaMart28/finalproject/blob/master/FinalProjectRMDFittedValuevsObservedValue.JPG)
 
 ## Discussion
 

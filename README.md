@@ -39,8 +39,6 @@ Because I suspect that there was a Triassic radiation of procolophonids, I would
 
 # Methods
 
-The tools I used were... 
-
 ## DATA MATRIX from Cisneros 2008. 
 
 ![Cisneros_2008_Data_Matrix](https://github.com/SelenaMart28/finalproject/blob/master/Cisneros2008DataMatrix.JPG?raw=true)
@@ -133,7 +131,13 @@ I used the command: “Geo.from.Max.Teeth <- pgls(as.numeric(V28) ~ as.factor(Ge
 There are no significant relationships to be reported, and there was no relationship identified between geographic location and whether or not teeth are labio-lingually broadened. 
 
 # Discussion
+As mentioned above, this study reports no significant relationships and that no relationship was identified between geographic location and whether or not teeth are labio-lingually broadened. My hypothesis was that, because there was a Triassic radiation of procolophonids, I would expect there to be lower association between procolophonids that exhibit vastly different tooth sizes and greater association between procolophonids that have similar tooth sizes (and therefore likely had similar diets and occupied similar niches). I reject my hypothesis in this study. 
 
+The rightmost values (beneath “intercept”) in the coefficient table shown above are relative to the first “intercept” value (i.e. the “0” value, i.e. Africa). Instead of being a 50/50 reference point for the coefficients, we have -0.0596993 value which is close to 0. 
+
+The adjusted R-squared value is -0.001568. This value is so low and indicates that this model (using geographic location to predict labiolingual tooth broadening ) is not good enough for predicting tooth morphology (labiolingual tooth broadening). I do not think this was an adequate coefficient of determination, as it predicts nowhere near 100% of the data. The negative, low value shows that this adjusted R-square value was negligible. Because of these results, I will conduct further analyses and attempt to find a variable (and its respective coefficient of determination) that may better explain the rapid radiation of procolophonids we see in the Triassic. 
+
+I initially decided to go with an analysis using modern continents because my knowledge of previous environments, climates, etc. is not too developed. In the future, I would like to improve on this. Because of the time constraints I am facing currently, I failed to conduct a more extensive study of biogeographical regions and dental morphology. I plan to conduct a more in-depth study later this year. 
 
 # Reflection
 
